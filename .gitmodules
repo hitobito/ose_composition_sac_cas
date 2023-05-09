@@ -1,0 +1,9 @@
+[submodule "hitobito"]
+	path = hitobito
+	url = https://github.com/hitobito/hitobito
+  branch = master
+
+[submodule "hitobito_sac_cas"]
+	path = hitobito_sac_cas
+	url = https://github.com/hitobito/hitobito_sac_cas
+  branch = master
