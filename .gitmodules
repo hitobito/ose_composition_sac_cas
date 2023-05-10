@@ -5,5 +5,5 @@
 
 [submodule "hitobito_sac_cas"]
 	path = hitobito_sac_cas
-	url = https://github.com/hitobito/hitobito_sac_cas
+	url = https://machineuser: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@github.com/hitobito/hitobito_sac_cas
   branch = master
