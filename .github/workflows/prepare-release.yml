@@ -26,5 +26,5 @@ jobs:
       composition: ${{ github.repository }}
       next_version: patch
       stage: ${{ inputs.stage }}
-      # target_branch: master
+      target_branch: sac-main
     secrets: inherit
