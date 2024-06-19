@@ -11,6 +11,7 @@ jobs:
     with:
       stage: integration
       release: integration
+      target_branch: 'sac-master'
     secrets: inherit
 
   build:
