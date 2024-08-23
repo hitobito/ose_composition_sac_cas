@@ -7,3 +7,6 @@
 	path = hitobito_sac_cas
 	url = https://github.com/hitobito/hitobito_sac_cas
   branch = master
+[submodule "hitobito_youth"]
+	path = hitobito_youth
+	url = https://github.com/hitobito/hitobito_youth.git
