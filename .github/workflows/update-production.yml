@@ -20,6 +20,7 @@ on:
         type: string
         description: Release a specific branch of the core and wagons. Leave empty for intelligent defaults.
         required: false
+        default: sac-stable
 
 jobs:
   release:
