@@ -7,7 +7,6 @@ on:
         type: string
         description: Release a specific branch of the core and wagons. Leave empty for intelligent defaults.
         required: false
-        default: master
   schedule:
     - cron: 10 3 * * 1-5
 
@@ -18,5 +17,5 @@ jobs:
       composition: ${{ github.repository }}
       release_type: regular
       stage: integration
-      target_branch: ${{ inputs.target_branch }}
+      target_branch: ${{ inputs.target_branch || 'master' }}
     secrets: inherit
