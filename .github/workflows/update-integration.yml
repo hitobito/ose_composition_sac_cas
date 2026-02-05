@@ -17,5 +17,5 @@ jobs:
       composition: ${{ github.repository }}
       release_type: regular
       stage: integration
-      target_branch: ${{ inputs.target_branch || 'master' }}
+      target_branch: ${{ inputs.target_branch }}
     secrets: inherit
