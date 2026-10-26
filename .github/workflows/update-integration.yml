@@ -7,8 +7,9 @@ on:
         type: string
         description: Release a specific branch of the core and wagons. Leave empty for intelligent defaults.
         required: false
-  schedule:
-    - cron: 10 3 * * 1-5
+  schedule: 
+    # Github schedules are delayed by several hours as of 10-2026, so the defined time is earlier than the intended run time.
+    - cron: 10 0 * * 1-5
       timezone: 'Europe/Berlin'
 
 jobs:
